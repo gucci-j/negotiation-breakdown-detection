@@ -1,0 +1,48 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": [
+        "flowtype"
+    ],
+    "rules": {
+        "indent": [0, 4],
+        "semi": [2, "never"],
+        "no-unused-vars": 0,
+        "comma-dangle": [2, "only-multiline"],
+        "no-irregular-whitespace": 0,
+        "prettier/prettier": [
+            "error",
+            {
+                "semi": false,
+                "tabWidth": 4,
+                "trailingComma": "all"
+            }
+        ]
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+        "SyntheticEvent": true,
+        "SyntheticAnimationEvent": true,
+        "SyntheticClipboardEvent": true,
+        "SyntheticCompositionEvent": true,
+        "SyntheticInputEvent": true,
+        "SyntheticUIEvent": true,
+        "SyntheticFocusEvent": true,
+        "SyntheticKeyboardEvent": true,
+        "SyntheticMouseEvent": true,
+        "SyntheticDragEvent": true,
+        "SyntheticWheelEvent": true,
+        "SyntheticTouchEvent": true,
+        "SyntheticTransitionEvent": true
+    }
+  }

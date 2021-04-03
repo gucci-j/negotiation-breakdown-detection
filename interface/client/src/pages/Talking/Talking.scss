@@ -1,0 +1,124 @@
+.Talking
+{
+     > .ant-layout-sider
+    {
+        flex: 0 0 60% !important;
+
+        width: 60% !important;
+        min-width: 400px !important;
+        max-width: 60% !important;
+        padding: 1rem;
+
+        color: rgba(0, 0, 0, .65);
+        background: white;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5
+        {
+            color: rgba(0, 0, 0, .85);
+        }
+    }
+     > .ant-layout-content
+    {
+        padding: 1rem;
+
+        h1 > .anticon
+        {
+            padding-right: 1rem;
+        }
+    }
+
+    .svg-inline--fa,
+    .anticon
+    {
+        margin-right: .5rem;
+    }
+
+    .Issues
+    {
+        display: flex;
+        flex-wrap: wrap;
+
+        .ant-tabs
+        {
+            width: 100%;
+        }
+
+        .ant-tabs-bar
+        {
+            border-color: rgba(0, 0, 0, .45);
+        }
+
+        .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab
+        {
+            border-color: rgba(0, 0, 0, .45);
+        }
+    }
+
+    .Issue
+    {
+        flex: calc(40% - 1rem) 0 0;
+
+        margin: 0;
+        padding: 0 1rem;
+
+        border-radius: 5px;
+        background: #fff;
+
+        .Heading
+        {
+            color: #444;
+        }
+
+        label.ant-radio-button-wrapper.ant-radio-button-wrapper-checked
+        {
+            color: white;
+            background: #1890ff;
+        }
+    }
+
+    textarea
+    {
+        line-height: 1.5rem;
+
+        margin-right: .5rem;
+
+        border: 3px solid #aaa;
+    }
+    textarea:hover
+    {
+        border: 3px solid #40a9ff;
+        border-right-width: 3px !important;
+    }
+    textarea:focus
+    {
+        border-right-width: 3px !important;
+        box-shadow: none;
+    }
+
+    button.ant-btn
+    {
+        height: 2.4rem;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .Talking.ant-layout.ant-layout-has-sider
+    {
+        flex-direction: column;
+
+         > .ant-layout-sider
+        {
+            flex: 0 0 100% !important;
+
+            width: 100% !important;
+            min-width: 100% !important;
+            max-width: 100% !important;
+            padding: 1rem;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.g2-tooltip
+{
+    display: none !important;
+}
+
+.ant-radio-group
+{
+    width: 100%;
+}
+
+.ant-radio-wrapper
+{
+    display: flex !important;
+    align-items: center;
+
+    width: 100%;
+}
+
+.radioInner
+{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.radioInner-name
+{
+    width: 100px;
+}
+
+.bar
+{
+    height: 1rem;
+    margin: .2rem;
+
+    color: white;
+    background: #3fa1ff;
+}

@@ -1,0 +1,31 @@
+.ScoreBadge
+{
+    padding: .2rem .5rem;
+
+    border-radius: 5px;
+}
+
+.ScoreBadge-veryhigh
+{
+    color: white;
+    background: #f90101;
+}
+
+.ScoreBadge-high
+{
+    color: white;
+    background: #fe7001;
+}
+
+
+.ScoreBadge-low
+{
+    color: white;
+    background: #00c1fe;
+}
+
+.ScoreBadge-verylow
+{
+    color: white;
+    background: #0251fe;
+}

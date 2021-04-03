@@ -1,0 +1,45 @@
+.Explained
+{
+    padding: 1rem;
+
+    background: #eee;
+
+    .Explained-card
+    {
+        width: 80vw;
+        max-width: 800px;
+        margin: auto;
+
+        .ant-card .ant-card-body
+        {
+            font-size: 1rem;
+
+            display: flex;
+            align-items: flex-start;
+
+            color: rgba($color: #000, $alpha: .8);
+
+            img
+            {
+                width: 50%;
+            }
+
+            .ScoreBadge
+            {
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+    circle.recharts-dot.recharts-line-dot
+    {
+        display: none;
+    }
+}
+
+tspan
+{
+    font-size: 1rem;
+
+    color: rgba($color: #000, $alpha: .8);
+}

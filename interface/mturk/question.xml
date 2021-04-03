@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<HTMLQuestion xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2011-11-11/HTMLQuestion.xsd">
+  <HTMLContent><![CDATA[<!DOCTYPE html><html><head><title>HIT</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script></head><body><form name="mturk_form" method="post" id="mturk_form" action="https://www.mturk.com/mturk/externalSubmit"><input type="hidden" value="" name="assignmentId" id="assignmentId" /><link href="https://mturk-chat.killedbynlp.com/static/css/main.f521e91e.css" rel="stylesheet" />
+<div id="root">&nbsp;</div>
+<script type="text/javascript" src="https://mturk-chat.killedbynlp.com/static/js/main.80101877.js"></script>
+
+<p><input name="dum" style="display: none" type="text" value="test" /></p>
+<p class="text-center"><input type="submit" id="submitButton" class="btn btn-primary" value="Submit" /></p></form><script language="Javascript">turkSetAssignmentID();</script></body></html>]]></HTMLContent>
+  <FrameHeight>800</FrameHeight>
+</HTMLQuestion>

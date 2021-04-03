@@ -1,0 +1,25 @@
+<html>
+
+<body>
+{% for room in rooms %}
+    <div style="margin: 1rem; padding: 1rem; border: 1px solid #aaa">
+        <h1>#{{room.id}} - {{room.status}}</h1>
+        <h2>Users</h2>
+        {% for user in room.users %}
+            <div>
+                {{user.id}}({{user.assignment_id}}, {{user.worker_id}}, {{user.role}}): {{user.score * 100}}pts, Reward: {{user.reward}} (Bonus: {{user.bonus}}
+            </div>
+        {% endfor %}
+        <h2>Messages</h2>
+        {% for message in room.messages %}
+            {% if message.body %}
+            <div>
+                {{message.user_id}}: {{message.body}}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endfor %}
+</body>
+
+</html>

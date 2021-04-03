@@ -1,0 +1,14 @@
+.Waiting
+{
+    width: 100vw;
+    height: 100vh;
+
+    .Waiting-spin
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+}

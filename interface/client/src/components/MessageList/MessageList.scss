@@ -1,0 +1,110 @@
+.MessageList
+{
+    overflow-y: scroll;
+
+    height: 400px;
+
+    .MessageList-message,
+    .MessageList-solution
+    {
+        max-width: 70%;
+        margin: 1rem auto 1rem 0;
+
+        word-break: break-all;
+
+         > .MessageList-message-body
+        {
+            padding: .5rem;
+
+            border: 1px #ccc solid;
+            border-radius: 5px;
+            background: #fff;
+        }
+
+        &.fromYourself
+        {
+            margin: 1rem 0 1rem auto;
+             > .MessageList-message-body
+            {
+                color: #fff;
+                border: none;
+                background: #1890ff;
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                p
+                {
+                    color: #fff;
+                }
+            }
+
+             > .MessageList-message-name
+            {
+                text-align: right;
+            }
+        }
+    }
+
+    .MessageList-role
+    {
+        color: #1890ff;
+    }
+}
+
+.MessageList::-webkit-scrollbar
+{
+    -webkit-appearance: none;
+}
+
+.MessageList::-webkit-scrollbar:vertical
+{
+    width: 11px;
+}
+
+.MessageList::-webkit-scrollbar:horizontal
+{
+    height: 11px;
+}
+
+.MessageList::-webkit-scrollbar-thumb
+{
+    border: 2px solid white; /* should match background, can't be transparent */
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.MessageList::-webkit-scrollbar-track
+{
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.line
+{
+    width: 100%;
+    height: 1px;
+    margin: .5rem 0;
+
+    background: white;
+
+    &:not(.fromYourself)
+    {
+        background: #ccc;
+    }
+}
+
+.score
+{
+    font-weight: bold;
+}
+
+.MessageList-solution
+{
+    button
+    {
+        margin-top: 1rem;
+    }
+}

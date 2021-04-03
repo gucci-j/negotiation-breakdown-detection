@@ -1,0 +1,32 @@
+{
+  "name": "react-mturk-chat-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "db:reset": "sequelize db:migrate:undo:all",
+    "db:migrate": "sequelize db:migrate",
+    "db:migrate:reset": "sequelize db:migrate:undo:all && sequelize db:migrate"
+  },
+  "dependencies": {
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "http": "^0.0.0",
+    "immutable": "^3.8.2",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "path": "^0.12.7",
+    "pg-promise": "^8.4.5",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0",
+    "socket.io": "^2.1.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.1",
+    "log4js": "^2.10.0"
+  }
+}
