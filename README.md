@@ -1,7 +1,7 @@
 Dialogue Act-based Breakdown Detection in Negotiation Dialogues
 ===
 
-This repository contains the proposed dataset and the negotiation interface used to collect our data.  
+This repository contains the proposed dataset and the negotiation interface used to collect our data. It also contains the official implementation.
 
 
 ## Dataset

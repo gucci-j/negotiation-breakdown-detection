@@ -1,0 +1,16 @@
+{
+    "mode": "train_with_tuning",
+    "base_path": "/put/a/path/here",
+    "data_path": "/path/to/dn.csv",
+    "save_path": "/path/to/a/save/folder",
+    "seed": 1234,
+    "num_folds": 5,
+    "batch_size": 64,
+    "epochs": 100,
+    "patience": 8,
+    "gpu": true,
+    "gpu_number": 0,
+    "rnn_type": "GRU",
+    "attention": true,
+    "input_dim": 10
+}
